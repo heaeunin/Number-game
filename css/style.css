@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Gowun+Dodum&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+} 
+
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../img/03.jpg) no-repeat;
+  background-size: cover; 
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+h1{
+  height: 90px;
+  font-size: 4.5rem;
+  color: rgb(64, 123, 225);
+  font-family: 'Dongle', sans-serif;
+}
+
+.wrap-box{
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+#result-area,
+#chance-area{
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+#result-area{
+  color: brown;
+  font-size: 2rem;
+  padding: 15px;
+}
+
+#user-input,
+#play-button,
+#reset-button{
+  padding: 5px;
+  height: 30px;
+}
+
+#play-button,
+#reset-button{
+  border-radius: 10px;
+  width: 55px;
+  height: 30px;
+  color: #fff;
+  background-color: #434343;
+  border: none;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.button-box{
+  padding: 25px;
+}
+
+@media only screen and (max-width:1224px){
+  .script_desc1 h1{font-size:19vw;}
+  .script_desc1 {
+      width:80%;
+  }
+}
+@media only screen and (max-width:724px){
+      .script_desc1 {
+       width:87%;
+      }
+
+}
